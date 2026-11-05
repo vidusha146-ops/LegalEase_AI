@@ -7,7 +7,25 @@ from app.rag.section_identifier import SectionIdentifier
 
 logger = logging.getLogger(__name__)
 
-INDEX_PATH = Path(__file__).resolve().parent.parent.parent.parent / "legal_knowledge_base" / "bare_act_index.json"
+def _resolve_index_path() -> Path:
+    """
+    Resolves the canonical Bare Act index file across container and monorepo environments.
+    Checks:
+    1. Packaged backend directory (Render container /app/legal_knowledge_base or local backend/legal_knowledge_base)
+    2. Monorepo root directory (legal_knowledge_base at repository root)
+    """
+    packaged_path = Path(__file__).resolve().parent.parent.parent / "legal_knowledge_base" / "bare_act_index.json"
+    if packaged_path.exists():
+        return packaged_path
+
+    root_path = Path(__file__).resolve().parent.parent.parent.parent / "legal_knowledge_base" / "bare_act_index.json"
+    if root_path.exists():
+        return root_path
+
+    return packaged_path
+
+
+INDEX_PATH = _resolve_index_path()
 
 
 class LegalCitationValidator:
@@ -18,8 +36,9 @@ class LegalCitationValidator:
     """
 
     def __init__(self, index_path: Optional[Path] = None):
-        self.path = index_path or INDEX_PATH
+        self.path = index_path or _resolve_index_path()
         self.canonical_sections: Dict[str, Any] = {}
+        self.is_loaded: bool = False
         self._load_index()
 
     def _load_index(self) -> None:
@@ -28,12 +47,19 @@ class LegalCitationValidator:
                 with open(self.path, "r", encoding="utf-8") as f:
                     data = json.load(f)
                     self.canonical_sections = data.get("sections", {})
+                    self.is_loaded = bool(self.canonical_sections)
+                    logger.info(f"Loaded {len(self.canonical_sections)} canonical sections from {self.path}")
             else:
-                logger.warning(f"Canonical index not found at {self.path}")
+                logger.error(
+                    f"Canonical Bare Act index not found at {self.path}. "
+                    f"Statutory citation verification is operating without an official index."
+                )
                 self.canonical_sections = {}
+                self.is_loaded = False
         except Exception as e:
-            logger.error(f"Error loading canonical index: {e}")
+            logger.error(f"Error loading canonical index from {self.path}: {e}")
             self.canonical_sections = {}
+            self.is_loaded = False
 
     def validate_citation(self, act_code: str, section_number: str) -> Dict[str, Any]:
         """
@@ -41,6 +67,18 @@ class LegalCitationValidator:
         """
         clean_act = act_code.upper().strip()
         clean_sec = section_number.strip()
+
+        if not self.is_loaded:
+            logger.warning(
+                f"Validation requested for {clean_act}:{clean_sec} but canonical index at {self.path} is uninitialized."
+            )
+            return {
+                "is_valid": False,
+                "status": "CANONICAL_INDEX_UNAVAILABLE",
+                "act_code": clean_act,
+                "section_number": clean_sec,
+                "rejection_reason": f"Canonical Bare Act index file is unavailable or uninitialized at {self.path}.",
+            }
         key = f"{clean_act}:{clean_sec}".upper()
 
         # Check exact key
@@ -96,6 +134,19 @@ class LegalCitationValidator:
         """
         if not text:
             return {"total_citations": 0, "valid_count": 0, "invalid_count": 0, "results": []}
+
+        if not self.is_loaded:
+            logger.warning(
+                f"Text citation validation requested but canonical index at {self.path} is uninitialized."
+            )
+            return {
+                "total_citations": 0,
+                "valid_count": 0,
+                "invalid_count": 0,
+                "citation_grounding_ratio": 0.0,
+                "error": f"Canonical Bare Act index is unavailable at {self.path}.",
+                "results": [],
+            }
 
         # Robust Statutory citation regex pattern
         pattern = r"(?:Section|Sec\.?|धारा)\s+([0-9]+(?:\([0-9A-Za-z]+\))?[A-Za-z]?)\s*(?:of\s+(?:the\s+)?)?\s*([A-Za-z0-9\s,–-]*?(?:Act|Sanhita|Adhiniyam|Code|IPC|CrPC|BNS|BNSS|BSA))\b"

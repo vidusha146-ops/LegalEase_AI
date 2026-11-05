@@ -5,7 +5,25 @@ from typing import Dict, Any, List, Optional
 
 logger = logging.getLogger(__name__)
 
-CROSSWALK_PATH = Path(__file__).resolve().parent.parent.parent.parent / "legal_knowledge_base" / "bns_ipc_crosswalk.json"
+def _resolve_crosswalk_path() -> Path:
+    """
+    Resolves the BNS-IPC crosswalk file across container and monorepo environments.
+    Checks:
+    1. Packaged backend directory (Render container /app/legal_knowledge_base or local backend/legal_knowledge_base)
+    2. Monorepo root directory (legal_knowledge_base at repository root)
+    """
+    packaged_path = Path(__file__).resolve().parent.parent.parent / "legal_knowledge_base" / "bns_ipc_crosswalk.json"
+    if packaged_path.exists():
+        return packaged_path
+
+    root_path = Path(__file__).resolve().parent.parent.parent.parent / "legal_knowledge_base" / "bns_ipc_crosswalk.json"
+    if root_path.exists():
+        return root_path
+
+    return packaged_path
+
+
+CROSSWALK_PATH = _resolve_crosswalk_path()
 
 
 class BNSIPCCrosswalk:
@@ -17,8 +35,9 @@ class BNSIPCCrosswalk:
     """
 
     def __init__(self, data_path: Optional[Path] = None):
-        self.path = data_path or CROSSWALK_PATH
+        self.path = data_path or _resolve_crosswalk_path()
         self.data: Dict[str, Any] = {}
+        self.is_loaded: bool = False
         self._load_crosswalk()
 
     def _load_crosswalk(self) -> None:
@@ -26,12 +45,19 @@ class BNSIPCCrosswalk:
             if self.path.exists():
                 with open(self.path, "r", encoding="utf-8") as f:
                     self.data = json.load(f)
+                    self.is_loaded = bool(self.data.get("mappings"))
+                    logger.info(f"Loaded {len(self.data.get('mappings', []))} crosswalk mappings from {self.path}")
             else:
-                logger.warning(f"Crosswalk file not found at {self.path}")
+                logger.error(
+                    f"BNS-IPC crosswalk file not found at {self.path}. "
+                    f"Crosswalk lookups are uninitialized."
+                )
                 self.data = {"mappings": [], "savings_provisions": {}}
+                self.is_loaded = False
         except Exception as e:
-            logger.error(f"Error loading crosswalk: {e}")
+            logger.error(f"Error loading crosswalk from {self.path}: {e}")
             self.data = {"mappings": [], "savings_provisions": {}}
+            self.is_loaded = False
 
     def get_all_mappings(self) -> List[Dict[str, Any]]:
         return self.data.get("mappings", [])
