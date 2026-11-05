@@ -1,0 +1,52 @@
+{
+  "act_code": "NI_ACT_1881",
+  "act_title": "Negotiable Instruments Act, 1881",
+  "act_number": "Act No. 26 of 1881",
+  "enactment_date": "1881-12-09",
+  "effective_date": "1882-03-01",
+  "source_url": "https://www.indiacode.nic.in/handle/123456789/2189",
+  "verification_date": "2026-11-04",
+  "legal_domain": "CHEQUE_BOUNCE_NI_ACT",
+  "sections": [
+    {
+      "section_number": "138",
+      "parent_section": "138",
+      "section_title": "Dishonour of cheque for insufficiency, etc., of funds in the account",
+      "provision_type": "PENAL_AND_CIVIL",
+      "chapter": "XVII - Of Penalties in case of Dishonour of certain Cheques for Insufficiency of Funds in the Accounts",
+      "full_text": "Where any cheque drawn by a person on an account maintained by him with a banker for payment of any amount of money to another person from out of that account for the discharge, in whole or in part, of any debt or other liability, is returned by the bank unpaid, either because of the amount of money standing to the credit of that account is insufficient to honour the cheque or that it exceeds the amount arranged to be paid from that account by an agreement made with that bank, such person shall be deemed to have committed an offence and shall, without prejudice to any other provisions of this Act, be punished with imprisonment for a term which may be extended to two years, or with fine which may extend to twice the amount of the cheque, or with both: Provided that nothing contained in this section shall apply unless— (a) the cheque has been presented to the bank within a period of three months from the date on which it is drawn or within the period of its validity, whichever is earlier; (b) the payee or the holder in due course of the cheque, as the case may be, makes a demand for the payment of the said amount of money by giving a notice in writing, to the drawer of the cheque, within thirty days of the receipt of information by him from the bank regarding the return of the cheque as unpaid; and (c) the drawer of such cheque fails to make the payment of the said amount of money to the payee or, as the case may be, to the holder in due course of the cheque, within fifteen days of the receipt of the said notice.",
+      "historical_counterpart": "Inserted by Banking, Public Financial Institutions and Negotiable Instruments Laws (Amendment) Act, 1988",
+      "counterpart_type": "PENAL_AND_CIVIL"
+    },
+    {
+      "section_number": "141",
+      "parent_section": "141",
+      "section_title": "Offences by companies (Vicarious Liability)",
+      "provision_type": "VICARIOUS_LIABILITY",
+      "chapter": "XVII - Of Penalties in case of Dishonour of certain Cheques for Insufficiency of Funds in the Accounts",
+      "full_text": "(1) If the person committing an offence under section 138 is a company, every person who, at the time the offence was committed, was in charge of, and was responsible to the company for the conduct of the business of the company, as well as the company, shall be deemed to be guilty of the offence and shall be liable to be proceeded against and punished accordingly.",
+      "historical_counterpart": "Inserted by Amendment Act 1988",
+      "counterpart_type": "VICARIOUS_LIABILITY"
+    },
+    {
+      "section_number": "142",
+      "parent_section": "142",
+      "section_title": "Cognizance of offences (Mandatory Procedural Timelines & Jurisdiction)",
+      "provision_type": "PROCEDURAL",
+      "chapter": "XVII - Of Penalties in case of Dishonour of certain Cheques for Insufficiency of Funds in the Accounts",
+      "full_text": "(1) Notwithstanding anything contained in the Code of Criminal Procedure, 1973 [now Bharatiya Nagarik Suraksha Sanhita, 2023]— (a) no court shall take cognizance of any offence punishable under section 138 except upon a complaint, in writing, made by the payee or, as the case may be, the holder in due course of the cheque; (b) such complaint is made within one month of the date on which the cause of action arises under clause (c) of the proviso to section 138: Provided that the cognizance of a complaint may be taken by the Court after the prescribed period, if the complainant satisfies the Court that he had sufficient cause for not making the complaint within such period; (2) The offence under section 138 shall be inquired into and tried only by a court within whose local jurisdiction,— (a) if the cheque is delivered for collection through an account, the branch of the bank where the payee or holder in due course, as the case may be, maintains the account, is situated.",
+      "historical_counterpart": "Amended by Negotiable Instruments (Amendment) Act, 2015",
+      "counterpart_type": "PROCEDURAL"
+    },
+    {
+      "section_number": "143A",
+      "parent_section": "143A",
+      "section_title": "Power to direct interim compensation",
+      "provision_type": "REMEDIAL",
+      "chapter": "XVII - Of Penalties in case of Dishonour of certain Cheques for Insufficiency of Funds in the Accounts",
+      "full_text": "(1) Notwithstanding anything contained in the Code of Criminal Procedure, 1973 [now Bharatiya Nagarik Suraksha Sanhita, 2023], the Court trying an offence under section 138 may order the drawer of the cheque to pay interim compensation to the complainant— (a) in a summary trial or a summons case, where he pleads not guilty to the accusation made in the complaint; and (b) in any other case, upon framing of charge. (2) The interim compensation under sub-section (1) shall not exceed twenty per cent of the amount of the cheque.",
+      "historical_counterpart": "Inserted by Negotiable Instruments (Amendment) Act, 2018",
+      "counterpart_type": "REMEDIAL"
+    }
+  ]
+}

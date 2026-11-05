@@ -1,0 +1,231 @@
+{
+  "n_samples": 114,
+  "n_classes": 10,
+  "classes": [
+    "CHEQUE_BOUNCE_NI_ACT",
+    "CONSTITUTIONAL_CIVIL_RIGHTS",
+    "CONSUMER_PROTECTION",
+    "CRIMINAL_LAW_BNS",
+    "CYBER_LAW_IT_ACT",
+    "FAMILY_MATRIMONIAL",
+    "LABOUR_EMPLOYMENT",
+    "MOTOR_VEHICLE_ACCIDENT",
+    "PROPERTY_TENANCY",
+    "RTI_GOVERNANCE"
+  ],
+  "cv_splits": 5,
+  "macro_precision": 0.5411,
+  "macro_recall": 0.5377,
+  "macro_f1": 0.5358,
+  "weighted_f1": 0.5245,
+  "fold_f1_scores": [
+    0.4429,
+    0.515,
+    0.5467,
+    0.5635,
+    0.4067
+  ],
+  "confusion_matrix": [
+    [
+      10,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    [
+      0,
+      3,
+      1,
+      1,
+      0,
+      1,
+      1,
+      0,
+      1,
+      2
+    ],
+    [
+      0,
+      2,
+      5,
+      2,
+      1,
+      0,
+      1,
+      2,
+      1,
+      0
+    ],
+    [
+      0,
+      0,
+      1,
+      6,
+      2,
+      2,
+      1,
+      0,
+      3,
+      0
+    ],
+    [
+      1,
+      0,
+      0,
+      5,
+      7,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      2,
+      0,
+      5,
+      1,
+      0,
+      2,
+      1
+    ],
+    [
+      0,
+      0,
+      1,
+      1,
+      0,
+      0,
+      8,
+      1,
+      0,
+      0
+    ],
+    [
+      0,
+      1,
+      3,
+      0,
+      0,
+      0,
+      0,
+      6,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      2,
+      2,
+      0,
+      1,
+      2,
+      0,
+      3,
+      0
+    ],
+    [
+      0,
+      2,
+      0,
+      0,
+      0,
+      0,
+      0,
+      1,
+      0,
+      7
+    ]
+  ],
+  "classification_report": {
+    "CHEQUE_BOUNCE_NI_ACT": {
+      "precision": 0.9090909090909091,
+      "recall": 1.0,
+      "f1-score": 0.9523809523809523,
+      "support": 10.0
+    },
+    "CONSTITUTIONAL_CIVIL_RIGHTS": {
+      "precision": 0.375,
+      "recall": 0.3,
+      "f1-score": 0.3333333333333333,
+      "support": 10.0
+    },
+    "CONSUMER_PROTECTION": {
+      "precision": 0.38461538461538464,
+      "recall": 0.35714285714285715,
+      "f1-score": 0.37037037037037035,
+      "support": 14.0
+    },
+    "CRIMINAL_LAW_BNS": {
+      "precision": 0.3157894736842105,
+      "recall": 0.4,
+      "f1-score": 0.35294117647058826,
+      "support": 15.0
+    },
+    "CYBER_LAW_IT_ACT": {
+      "precision": 0.7,
+      "recall": 0.5384615384615384,
+      "f1-score": 0.6086956521739131,
+      "support": 13.0
+    },
+    "FAMILY_MATRIMONIAL": {
+      "precision": 0.5555555555555556,
+      "recall": 0.45454545454545453,
+      "f1-score": 0.5,
+      "support": 11.0
+    },
+    "LABOUR_EMPLOYMENT": {
+      "precision": 0.5714285714285714,
+      "recall": 0.7272727272727273,
+      "f1-score": 0.64,
+      "support": 11.0
+    },
+    "MOTOR_VEHICLE_ACCIDENT": {
+      "precision": 0.6,
+      "recall": 0.6,
+      "f1-score": 0.6,
+      "support": 10.0
+    },
+    "PROPERTY_TENANCY": {
+      "precision": 0.3,
+      "recall": 0.3,
+      "f1-score": 0.3,
+      "support": 10.0
+    },
+    "RTI_GOVERNANCE": {
+      "precision": 0.7,
+      "recall": 0.7,
+      "f1-score": 0.7,
+      "support": 10.0
+    },
+    "accuracy": 0.5263157894736842,
+    "macro avg": {
+      "precision": 0.5411479894374631,
+      "recall": 0.5377422577422577,
+      "f1-score": 0.5357721484729158,
+      "support": 114.0
+    },
+    "weighted avg": {
+      "precision": 0.5303437892773073,
+      "recall": 0.5263157894736842,
+      "f1-score": 0.5244692032249801,
+      "support": 114.0
+    }
+  },
+  "dataset_limitations": [
+    "Dataset comprises 114 curated realistic Indian citizen grievance scenarios.",
+    "Cross-domain overlaps exist between Cyber Fraud and Consumer Disputes.",
+    "Real citizen inquiries may contain multi-lingual Hinglish code-switching.",
+    "Continuous performance evaluation and active learning retraining recommended."
+  ]
+}

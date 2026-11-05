@@ -1,0 +1,82 @@
+{
+  "act_code": "CONSUMER_PROTECTION_2019",
+  "act_title": "Consumer Protection Act, 2019",
+  "act_number": "Act No. 35 of 2019",
+  "enactment_date": "2019-08-09",
+  "effective_date": "2020-07-20",
+  "source_url": "https://egazette.gov.in/WriteReadData/2019/210422.pdf",
+  "verification_date": "2026-11-04",
+  "legal_domain": "CONSUMER_PROTECTION",
+  "sections": [
+    {
+      "section_number": "2(7)",
+      "parent_section": "2",
+      "section_title": "Definition of Consumer",
+      "provision_type": "DEFINITION",
+      "chapter": "I - Preliminary",
+      "full_text": "'consumer' means any person who— (i) buys any goods for a consideration which has been paid or promised or partly paid and partly promised, or under any system of deferred payment and includes any user of such goods other than the person who buys such goods for consideration paid or promised... but does not include a person who obtains such goods for resale or for any commercial purpose; or (ii) hires or avails of any service for a consideration which has been paid or promised... Explanation.—For the purposes of this clause, the expressions 'buys any goods' and 'hires or avails any services' includes offline or online transactions through electronic means or by teleshopping or direct selling or multi-level marketing.",
+      "historical_counterpart": "Section 2(1)(d) Consumer Protection Act, 1986",
+      "counterpart_type": "DEFINITION"
+    },
+    {
+      "section_number": "2(11)",
+      "parent_section": "2",
+      "section_title": "Definition of Deficiency",
+      "provision_type": "DEFINITION",
+      "chapter": "I - Preliminary",
+      "full_text": "'deficiency' means any fault, imperfection, shortcoming or inadequacy in the quality, nature and manner of performance which is required to be maintained by or under any law for the time being in force or has been undertaken to be performed by a person in pursuance of a contract or otherwise in relation to any service and includes— (i) any act of negligence or omission or commission by such person which causes loss or injury to the consumer; and (ii) deliberate withholding of relevant information by such person to the consumer.",
+      "historical_counterpart": "Section 2(1)(g) Consumer Protection Act, 1986",
+      "counterpart_type": "DEFINITION"
+    },
+    {
+      "section_number": "2(47)",
+      "parent_section": "2",
+      "section_title": "Definition of Unfair Trade Practice",
+      "provision_type": "DEFINITION",
+      "chapter": "I - Preliminary",
+      "full_text": "'unfair trade practice' means a trade practice which, for the purpose of promoting the sale, use or supply of any goods or for the provision of any service, adopts any unfair method or unfair or deceptive practice including... falsely representing that the goods are of a particular standard, quality, quantity, grade, composition, style or model; making a false or misleading representation concerning the need for, or the usefulness of, any goods or services; not issuing bill or cash memo; refusing to take back defective goods or refund money within the period stipulated in the bill.",
+      "historical_counterpart": "Section 2(1)(r) Consumer Protection Act, 1986",
+      "counterpart_type": "DEFINITION"
+    },
+    {
+      "section_number": "34",
+      "parent_section": "34",
+      "section_title": "Jurisdiction of District Commission",
+      "provision_type": "PROCEDURAL",
+      "chapter": "IV - Consumer Disputes Redressal Commission",
+      "full_text": "(1) Subject to the other provisions of this Act, the District Commission shall have jurisdiction to entertain complaints where the value of the goods or services paid as consideration does not exceed fifty lakh rupees. (2) A complaint shall be instituted in a District Commission within the local limits of whose jurisdiction— (a) the opposite party or each of the opposite parties ordinarily resides or carries on business; or (b) any of the opposite parties ordinarily resides; or (c) the cause of action, wholly or in part, arises; or (d) the complainant resides or personally works for gain.",
+      "historical_counterpart": "Section 11 Consumer Protection Act, 1986",
+      "counterpart_type": "PROCEDURAL"
+    },
+    {
+      "section_number": "35",
+      "parent_section": "35",
+      "section_title": "Manner in which complaint shall be made to District Commission",
+      "provision_type": "PROCEDURAL",
+      "chapter": "IV - Consumer Disputes Redressal Commission",
+      "full_text": "(1) A complaint, in relation to any goods sold or delivered or agreed to be sold or delivered or any service provided or agreed to be provided, may be filed with a District Commission by— (a) the consumer— (i) to whom such goods are sold or delivered or agreed to be sold or delivered or such service is provided or agreed to be provided; or (ii) who alleges unfair trade practice in respect of such goods or service; (b) any recognised consumer association... (2) Every complaint filed under sub-section (1) shall be accompanied with such fee and in such manner as may be prescribed.",
+      "historical_counterpart": "Section 12 Consumer Protection Act, 1986",
+      "counterpart_type": "PROCEDURAL"
+    },
+    {
+      "section_number": "38",
+      "parent_section": "38",
+      "section_title": "Procedure on admission of complaint",
+      "provision_type": "PROCEDURAL",
+      "chapter": "IV - Consumer Disputes Redressal Commission",
+      "full_text": "(1) The District Commission shall, on admission of a complaint, or in respect of cases referred for mediation, refer a copy of the admitted complaint within twenty-one days from the date of its admission to the opposite party mentioned in the complaint directing him to give his version of the case within a period of thirty days or such extended period not exceeding fifteen days as may be granted by it.",
+      "historical_counterpart": "Section 13 Consumer Protection Act, 1986",
+      "counterpart_type": "PROCEDURAL"
+    },
+    {
+      "section_number": "39",
+      "parent_section": "39",
+      "section_title": "Findings of District Commission (Reliefs)",
+      "provision_type": "REMEDIAL",
+      "chapter": "IV - Consumer Disputes Redressal Commission",
+      "full_text": "(1) Where the District Commission is satisfied that the goods complained against suffer from any of the defects specified in the complaint or that any of the allegations contained in the complaint about the services or any unfair trade practices are proved, it shall issue an order to the opposite party directing him to do one or more of the following things, namely:— (a) to remove the defect pointed out by the appropriate laboratory from the goods in question; (b) to replace the goods with new goods of similar description; (c) to return to the complainant the price, or, as the case may be, the charges paid by the complainant; (d) to pay such amount as may be awarded by it as compensation to the consumer for any loss or injury suffered by the consumer due to the negligence of the opposite party; (e) to pay such amount as may be awarded as punitive damages in such circumstances as it deems fit.",
+      "historical_counterpart": "Section 14 Consumer Protection Act, 1986",
+      "counterpart_type": "REMEDIAL"
+    }
+  ]
+}

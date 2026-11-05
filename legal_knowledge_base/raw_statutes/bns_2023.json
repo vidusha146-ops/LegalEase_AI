@@ -1,0 +1,162 @@
+{
+  "act_code": "BNS_2023",
+  "act_title": "Bharatiya Nyaya Sanhita, 2023",
+  "act_number": "Act No. 45 of 2023",
+  "enactment_date": "2023-12-25",
+  "effective_date": "2024-07-01",
+  "source_url": "https://egazette.gov.in/WriteReadData/2023/250883.pdf",
+  "verification_date": "2026-11-04",
+  "legal_domain": "CRIMINAL_LAW_BNS",
+  "sections": [
+    {
+      "section_number": "303(1)",
+      "parent_section": "303",
+      "section_title": "Theft (Definition)",
+      "provision_type": "DEFINITION",
+      "chapter": "XVII - Of Offences Against Property",
+      "full_text": "Whoever, intending to take dishonestly any movable property out of the possession of any person without that person's consent, moves that property in order to such taking, is said to commit theft. Explanation 1.—A thing so long as it is attached to the earth, not being movable property, is not the subject of theft; but it becomes capable of being the subject of theft as soon as it is severed from the earth. Explanation 2.—A moving effected by the same act which affects the severance may be a theft. Explanation 3.—A person is said to cause a thing to move by removing an obstacle which prevented it from moving, or by separating it from any other thing, as well as by actually moving it. Explanation 4.—A person, who by any means causes an animal to move, is said to move that animal, and to move every thing which, in consequence of the motion so caused, is moved by that animal. Explanation 5.—The consent mentioned in the definition may be express or implied, and may be given either by the person in possession, or by any person having for that purpose authority either express or implied.",
+      "historical_counterpart": "Section 378 IPC",
+      "counterpart_type": "DEFINITION"
+    },
+    {
+      "section_number": "303(2)",
+      "parent_section": "303",
+      "section_title": "Punishment for Theft",
+      "provision_type": "PUNISHMENT",
+      "chapter": "XVII - Of Offences Against Property",
+      "full_text": "Whoever commits theft shall be punished with imprisonment of either description for a term which may extend to three years, or with fine, or with both, and in the case of second or subsequent conviction of any person under this section, he shall be punished with rigorous imprisonment for a term which shall not be less than one year but which may extend to five years and with fine: Provided that where the value of stolen property is less than five thousand rupees, and a person is convicted for the first time, and has restored or paid the value of the property, he shall be punished with community service.",
+      "historical_counterpart": "Section 379 IPC",
+      "counterpart_type": "PUNISHMENT"
+    },
+    {
+      "section_number": "305",
+      "parent_section": "305",
+      "section_title": "Theft in dwelling house, or means of transportation or place of worship, etc.",
+      "provision_type": "AGGRAVATED_OFFENCE",
+      "chapter": "XVII - Of Offences Against Property",
+      "full_text": "Whoever commits theft in any building, tent or vessel used as a human dwelling, or used for the custody of property, or in any place of worship, or in any means of transportation used for the transport of passengers or goods, shall be punished with imprisonment of either description for a term which may extend to seven years, and shall also be liable to fine.",
+      "historical_counterpart": "Section 380 IPC",
+      "counterpart_type": "PUNISHMENT"
+    },
+    {
+      "section_number": "308(1)",
+      "parent_section": "308",
+      "section_title": "Extortion (Definition)",
+      "provision_type": "DEFINITION",
+      "chapter": "XVII - Of Offences Against Property",
+      "full_text": "Whoever intentionally puts any person in fear of any injury to that person, or to any other, and thereby dishonestly induces the person so put in fear to deliver to any person any property, or valuable security, or anything signed or sealed which may be converted into a valuable security, commits extortion.",
+      "historical_counterpart": "Section 383 IPC",
+      "counterpart_type": "DEFINITION"
+    },
+    {
+      "section_number": "308(2)",
+      "parent_section": "308",
+      "section_title": "Punishment for Extortion",
+      "provision_type": "PUNISHMENT",
+      "chapter": "XVII - Of Offences Against Property",
+      "full_text": "Whoever commits extortion shall be punished with imprisonment of either description for a term which may extend to seven years, or with fine, or with both.",
+      "historical_counterpart": "Section 384 IPC",
+      "counterpart_type": "PUNISHMENT"
+    },
+    {
+      "section_number": "316(1)",
+      "parent_section": "316",
+      "section_title": "Criminal breach of trust (Definition)",
+      "provision_type": "DEFINITION",
+      "chapter": "XVII - Of Offences Against Property",
+      "full_text": "Whoever, being in any manner entrusted with property, or with any dominion over property, dishonestly misappropriates or converts to his own use that property, or dishonestly uses or disposes of that property in violation of any direction of law prescribing the mode in which such trust is to be discharged, or of any legal contract, express or implied, which he has made touching the discharge of such trust, or wilfully suffers any other person so to do, commits criminal breach of trust.",
+      "historical_counterpart": "Section 405 IPC",
+      "counterpart_type": "DEFINITION"
+    },
+    {
+      "section_number": "316(2)",
+      "parent_section": "316",
+      "section_title": "Punishment for criminal breach of trust",
+      "provision_type": "PUNISHMENT",
+      "chapter": "XVII - Of Offences Against Property",
+      "full_text": "Whoever commits criminal breach of trust shall be punished with imprisonment of either description for a term which may extend to five years, or with fine, or with both.",
+      "historical_counterpart": "Section 406 IPC",
+      "counterpart_type": "PUNISHMENT"
+    },
+    {
+      "section_number": "318(1)",
+      "parent_section": "318",
+      "section_title": "Cheating (Definition)",
+      "provision_type": "DEFINITION",
+      "chapter": "XVII - Of Offences Against Property",
+      "full_text": "Whoever, by deceiving any person, fraudulently or dishonestly induces the person so deceived to deliver any property to any person, or to consent that any person shall retain any property, or intentionally induces the person so deceived to do or omit to do anything which he would not do or omit if he were not so deceived, and which act or omission causes or is likely to cause damage or harm to that person in body, mind, reputation or property, is said to cheat. Explanation.—A dishonest concealment of facts is a deception within the meaning of this section.",
+      "historical_counterpart": "Section 415 IPC",
+      "counterpart_type": "DEFINITION"
+    },
+    {
+      "section_number": "318(2)",
+      "parent_section": "318",
+      "section_title": "Punishment for Cheating (Simple)",
+      "provision_type": "PUNISHMENT",
+      "chapter": "XVII - Of Offences Against Property",
+      "full_text": "Whoever cheats shall be punished with imprisonment of either description for a term which may extend to three years, or with fine, or with both.",
+      "historical_counterpart": "Section 417 IPC",
+      "counterpart_type": "PUNISHMENT"
+    },
+    {
+      "section_number": "318(4)",
+      "parent_section": "318",
+      "section_title": "Cheating and dishonestly inducing delivery of property",
+      "provision_type": "AGGRAVATED_OFFENCE",
+      "chapter": "XVII - Of Offences Against Property",
+      "full_text": "Whoever cheats and thereby dishonestly induces the person deceived to deliver any property to any person, or to make, alter or destroy the whole or any part of a valuable security, or anything which is signed or sealed, and which is capable of being converted into a valuable security, shall be punished with imprisonment of either description for a term which may extend to seven years, and shall also be liable to fine.",
+      "historical_counterpart": "Section 420 IPC",
+      "counterpart_type": "AGGRAVATED_OFFENCE"
+    },
+    {
+      "section_number": "336(1)",
+      "parent_section": "336",
+      "section_title": "Forgery (Definition)",
+      "provision_type": "DEFINITION",
+      "chapter": "XVIII - Of Offences Relating to Documents and to Property Marks",
+      "full_text": "Whoever makes any false document or false electronic record or part of a document or electronic record, with intent to cause damage or injury, to the public or to any person, or to support any claim or title, or to cause any person to part with property, or to enter into any express or implied contract, or with intent to commit fraud or that fraud may be committed, commits forgery.",
+      "historical_counterpart": "Section 463 IPC",
+      "counterpart_type": "DEFINITION"
+    },
+    {
+      "section_number": "336(2)",
+      "parent_section": "336",
+      "section_title": "Punishment for forgery",
+      "provision_type": "PUNISHMENT",
+      "chapter": "XVIII - Of Offences Relating to Documents and to Property Marks",
+      "full_text": "Whoever commits forgery shall be punished with imprisonment of either description for a term which may extend to two years, or with fine, or with both.",
+      "historical_counterpart": "Section 465 IPC",
+      "counterpart_type": "PUNISHMENT"
+    },
+    {
+      "section_number": "351(1)",
+      "parent_section": "351",
+      "section_title": "Criminal intimidation (Definition)",
+      "provision_type": "DEFINITION",
+      "chapter": "XIX - Of Criminal Intimidation, Insult, Annoyance, Defamation, etc.",
+      "full_text": "Whoever threatens another with any injury to his person, reputation or property, or to the person or reputation of any one in whom that person is interested, with intent to cause alarm to that person, or to cause that person to do any act which he is not legally bound to do, or to omit to do any act which that person is legally entitled to do, as the means of avoiding the execution of such threat, commits criminal intimidation. Explanation.—A threat to injure the reputation of any deceased person in whom the person threatened is interested, is within this section.",
+      "historical_counterpart": "Section 503 IPC",
+      "counterpart_type": "DEFINITION"
+    },
+    {
+      "section_number": "351(2)",
+      "parent_section": "351",
+      "section_title": "Punishment for criminal intimidation",
+      "provision_type": "PUNISHMENT",
+      "chapter": "XIX - Of Criminal Intimidation, Insult, Annoyance, Defamation, etc.",
+      "full_text": "Whoever commits the offence of criminal intimidation shall be punished with imprisonment of either description for a term which may extend to two years, or with fine, or with both.",
+      "historical_counterpart": "Section 506 IPC",
+      "counterpart_type": "PUNISHMENT"
+    },
+    {
+      "section_number": "358",
+      "parent_section": "358",
+      "section_title": "Repeal and Savings",
+      "provision_type": "TRANSITIONAL_SAVINGS",
+      "chapter": "XX - Repeal and Savings",
+      "full_text": "(1) The Indian Penal Code, 1860 is hereby repealed. (2) Notwithstanding the repeal of the Code, the repeal shall not affect: (a) the previous operation of the Code so repealed or anything duly done or suffered thereunder; or (b) any right, privilege, obligation or liability acquired, accrued or incurred under the Code so repealed; or (c) any penalty, forfeiture or punishment incurred in respect of any offence committed against the Code so repealed; or (d) any investigation, legal proceeding or remedy in respect of any such right, privilege, obligation, liability, penalty, forfeiture or punishment as aforesaid, and any such investigation, legal proceeding or remedy may be instituted, continued or enforced, and any such penalty, forfeiture or punishment may be imposed as if that Code had not been repealed.",
+      "historical_counterpart": "Repeals IPC 1860",
+      "counterpart_type": "REPEAL_AND_SAVINGS"
+    }
+  ]
+}

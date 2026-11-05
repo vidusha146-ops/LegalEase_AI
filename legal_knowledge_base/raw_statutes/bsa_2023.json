@@ -1,0 +1,52 @@
+{
+  "act_code": "BSA_2023",
+  "act_title": "Bharatiya Sakshya Adhiniyam, 2023",
+  "act_number": "Act No. 47 of 2023",
+  "enactment_date": "2023-12-25",
+  "effective_date": "2024-07-01",
+  "source_url": "https://egazette.gov.in/WriteReadData/2023/250885.pdf",
+  "verification_date": "2026-11-04",
+  "legal_domain": "EVIDENCE_LAW_BSA",
+  "sections": [
+    {
+      "section_number": "57",
+      "parent_section": "57",
+      "section_title": "Primary evidence",
+      "provision_type": "EVIDENTIARY_RULE",
+      "chapter": "Part II - On Proof / Chapter V - Of Documentary Evidence",
+      "full_text": "Primary evidence means the document itself produced for the inspection of the Court. Explanation 1.—Where a document is executed in several parts, each part is primary evidence of the document. Explanation 2.—Where a document is executed in counterpart, each counterpart being executed by one or some of the parties only, each counterpart is primary evidence as against the parties executing it. Explanation 3.—Where a number of documents are all made by one uniform process, as in the case of printing, lithography, or photography, each is primary evidence of the contents of the rest; but, where they are all copies of a common original, they are not primary evidence of the contents of the original.",
+      "historical_counterpart": "Section 62 Indian Evidence Act, 1872",
+      "counterpart_type": "EVIDENTIARY_RULE"
+    },
+    {
+      "section_number": "61",
+      "parent_section": "61",
+      "section_title": "Admissibility of electronic or digital records",
+      "provision_type": "EVIDENTIARY_RULE",
+      "chapter": "Part II - On Proof / Chapter V - Of Documentary Evidence",
+      "full_text": "Nothing in this Adhiniyam shall apply to deny the admissibility of an electronic or digital record in evidence on the ground that it is an electronic or digital record, and such record shall have the same legal effect, validity and enforceability as any other document.",
+      "historical_counterpart": "Section 65A Indian Evidence Act, 1872",
+      "counterpart_type": "EVIDENTIARY_RULE"
+    },
+    {
+      "section_number": "63",
+      "parent_section": "63",
+      "section_title": "Admissibility of electronic records and Certificate Requirement",
+      "provision_type": "EVIDENTIARY_RULE",
+      "chapter": "Part II - On Proof / Chapter V - Of Documentary Evidence",
+      "full_text": "(1) Notwithstanding anything contained in this Adhiniyam, any information contained in an electronic record which is printed on a paper, stored, recorded or copied in optical or magnetic media or cloud or semiconductor memory produced by a computer... shall be deemed to be also a document, if the conditions mentioned in this section are satisfied in relation to the information and computer in question... (4) In any proceedings where it is desired to give a statement in evidence by virtue of this section, a certificate in the Schedule signed by a person in charge of the computer or device shall be submitted.",
+      "historical_counterpart": "Section 65B Indian Evidence Act, 1872",
+      "counterpart_type": "EVIDENTIARY_RULE"
+    },
+    {
+      "section_number": "170",
+      "parent_section": "170",
+      "section_title": "Repeal and Savings",
+      "provision_type": "TRANSITIONAL_SAVINGS",
+      "chapter": "Part III - Production and Effect of Evidence / Chapter XI - Repeal and Savings",
+      "full_text": "(1) The Indian Evidence Act, 1872 is hereby repealed. (2) Notwithstanding such repeal, any proceeding, inquiry, investigation, trial, or appeal commenced under the Indian Evidence Act, 1872 and pending on the date of commencement of this Adhiniyam shall be conducted in accordance with the provisions of the Indian Evidence Act, 1872, as if this Adhiniyam had not come into force.",
+      "historical_counterpart": "Repeals Indian Evidence Act, 1872",
+      "counterpart_type": "REPEAL_AND_SAVINGS"
+    }
+  ]
+}

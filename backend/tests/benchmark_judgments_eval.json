@@ -1,0 +1,204 @@
+[
+  {
+    "scenario_id": "BENCH_TUNE_01",
+    "split": "tuning",
+    "domain": "CONSUMER_PROTECTION",
+    "factual_narrative": "Purchased vehicle on hire which was subsequently stolen by armed hijackers. Insurance company rejected entire claim on the ground that private vehicle was used for commercial hire.",
+    "expected_relevant_keys": ["SC_2008_NITIN_KHANDELWAL"],
+    "expected_binding_level": "BINDING_CONSTITUTIONAL"
+  },
+  {
+    "scenario_id": "BENCH_TUNE_02",
+    "split": "tuning",
+    "domain": "CONSUMER_PROTECTION",
+    "factual_narrative": "Housing board failed to deliver flat possession within 3 years despite full payment. Flat allotment delayed indefinitely with arbitrary price escalation.",
+    "expected_relevant_keys": ["SC_1994_LUCKNOW_DEV_AUTH", "SC_2004_GDA_BALBIR_SINGH"],
+    "expected_binding_level": "BINDING_CONSTITUTIONAL"
+  },
+  {
+    "scenario_id": "BENCH_TUNE_03",
+    "split": "tuning",
+    "domain": "CRIMINAL_LAW_BNS",
+    "factual_narrative": "Police arrested citizen without stating grounds of arrest or informing family members. Remand order passed routinely under Section 498A without Section 41 notice.",
+    "expected_relevant_keys": ["SC_1997_DK_BASU", "SC_2014_ARNESH_KUMAR"],
+    "expected_binding_level": "BINDING_CONSTITUTIONAL"
+  },
+  {
+    "scenario_id": "BENCH_TUNE_04",
+    "split": "tuning",
+    "domain": "CHEQUE_BOUNCE_NI_ACT",
+    "factual_narrative": "Cheque returned by bank with memo funds insufficient. Statutory demand notice issued within 30 days under Section 138 of Negotiable Instruments Act but drawer failed to pay.",
+    "expected_relevant_keys": ["SC_2010_RANGAPPA", "SC_2019_BIR_SINGH"],
+    "expected_binding_level": "BINDING_CONSTITUTIONAL"
+  },
+  {
+    "scenario_id": "BENCH_TUNE_05",
+    "split": "tuning",
+    "domain": "MOTOR_VEHICLE_ACCIDENT",
+    "factual_narrative": "Fatal motor vehicle collision causing death of self-employed victim aged 32 years. Tribunal failed to add future prospects and used wrong multiplier.",
+    "expected_relevant_keys": ["SC_2009_SARLA_VERMA", "SC_2017_PRANAY_SETHI"],
+    "expected_binding_level": "BINDING_CONSTITUTIONAL"
+  },
+  {
+    "scenario_id": "BENCH_TUNE_06",
+    "split": "tuning",
+    "domain": "CYBER_LAW_IT_ACT",
+    "factual_narrative": "Police arrested blogger under Section 66A for posting offensive comments online criticizing state government policies.",
+    "expected_relevant_keys": ["SC_2015_SHREYA_SINGHAL"],
+    "expected_binding_level": "BINDING_CONSTITUTIONAL"
+  },
+  {
+    "scenario_id": "BENCH_TUNE_07",
+    "split": "tuning",
+    "domain": "RTI_GOVERNANCE",
+    "factual_narrative": "Student applied under Right to Information Act seeking inspection and certified copies of evaluated examination answer sheets from examination board.",
+    "expected_relevant_keys": ["SC_2011_ADITYA_BANDOPADHYAY"],
+    "expected_binding_level": "BINDING_CONSTITUTIONAL"
+  },
+  {
+    "scenario_id": "BENCH_TUNE_08",
+    "split": "tuning",
+    "domain": "PROPERTY_TENANCY",
+    "factual_narrative": "Unregistered lease agreement for period of 5 years. Landlord seeking eviction and tenant arguing statutory tenancy created by monthly rent acceptance.",
+    "expected_relevant_keys": ["SC_2000_ANTHONY_ITTOOP"],
+    "expected_binding_level": "BINDING_CONSTITUTIONAL"
+  },
+  {
+    "scenario_id": "BENCH_TUNE_09",
+    "split": "tuning",
+    "domain": "CRIMINAL_LAW_BNS",
+    "factual_narrative": "Government authority enacted surveillance and biometric data collection violating personal liberty and privacy without valid statutory procedure under Article 21.",
+    "expected_relevant_keys": ["SC_1978_MANEKA_GANDHI", "SC_2017_PUTTASWAMY"],
+    "expected_binding_level": "BINDING_CONSTITUTIONAL"
+  },
+  {
+    "scenario_id": "BENCH_TUNE_10",
+    "split": "tuning",
+    "domain": "CRIMINAL_LAW_BNS",
+    "factual_narrative": "Citizens detained under MISA during emergency seeking writ of habeas corpus challenging executive detention without trial under Article 359.",
+    "expected_relevant_keys": ["SC_1976_ADM_JABALPUR"],
+    "expected_overruled_alert": true,
+    "expected_binding_level": "OVERRULED_HISTORICAL_RECORD"
+  },
+  {
+    "scenario_id": "BENCH_HELD_01",
+    "split": "held_out",
+    "domain": "CONSUMER_PROTECTION",
+    "factual_narrative": "Medical treatment in government or private hospital alleging medical negligence and deficiency of service under Consumer Protection Act.",
+    "expected_relevant_keys": ["SC_1995_IMA_VP_SHANTHA"],
+    "expected_binding_level": "BINDING_CONSTITUTIONAL"
+  },
+  {
+    "scenario_id": "BENCH_HELD_02",
+    "split": "held_out",
+    "domain": "CONSUMER_PROTECTION",
+    "factual_narrative": "Builder inserted one-sided clauses in builder buyer agreement and delayed possession of apartment for over 3 years.",
+    "expected_relevant_keys": ["SC_2021_PIONEER_URBAN", "SC_2004_GDA_BALBIR_SINGH"],
+    "expected_binding_level": "BINDING_CONSTITUTIONAL"
+  },
+  {
+    "scenario_id": "BENCH_HELD_03",
+    "split": "held_out",
+    "domain": "CRIMINAL_LAW_BNS",
+    "factual_narrative": "Custodial violence and death in police custody. Arresting police officer did not prepare memo of arrest or inform relative of arrestee.",
+    "expected_relevant_keys": ["SC_1997_DK_BASU"],
+    "expected_binding_level": "BINDING_CONSTITUTIONAL"
+  },
+  {
+    "scenario_id": "BENCH_HELD_04",
+    "split": "held_out",
+    "domain": "CRIMINAL_LAW_BNS",
+    "factual_narrative": "Arrest without warrant in offence punishable with imprisonment up to 7 years. Police officer must serve notice of appearance under Section 41A.",
+    "expected_relevant_keys": ["SC_2014_ARNESH_KUMAR"],
+    "expected_binding_level": "BINDING_CONSTITUTIONAL"
+  },
+  {
+    "scenario_id": "BENCH_HELD_05",
+    "split": "held_out",
+    "domain": "CHEQUE_BOUNCE_NI_ACT",
+    "factual_narrative": "Accused admitted signature on cheque but claimed blank cheque was handed over as security. Reverse burden of proof under Section 139 NI Act.",
+    "expected_relevant_keys": ["SC_2010_RANGAPPA", "SC_2019_BIR_SINGH"],
+    "expected_binding_level": "BINDING_CONSTITUTIONAL"
+  },
+  {
+    "scenario_id": "BENCH_HELD_06",
+    "split": "held_out",
+    "domain": "CHEQUE_BOUNCE_NI_ACT",
+    "factual_narrative": "Notice of demand returned unclaimed with postal endorsement. Notice dispatched to correct address deemed served under Section 27 General Clauses Act.",
+    "expected_relevant_keys": ["SC_1999_K_BHASKARAN"],
+    "expected_binding_level": "BINDING_CONSTITUTIONAL"
+  },
+  {
+    "scenario_id": "BENCH_HELD_07",
+    "split": "held_out",
+    "domain": "MOTOR_VEHICLE_ACCIDENT",
+    "factual_narrative": "Standardization of compensation in fatal motor accident claims under Section 166. Future prospects addition for fixed salary deceased.",
+    "expected_relevant_keys": ["SC_2017_PRANAY_SETHI", "SC_2009_SARLA_VERMA"],
+    "expected_binding_level": "BINDING_CONSTITUTIONAL"
+  },
+  {
+    "scenario_id": "BENCH_HELD_08",
+    "split": "held_out",
+    "domain": "CYBER_LAW_IT_ACT",
+    "factual_narrative": "Online posting of defamatory and obscene messages against woman in cyber chat group without consent under Section 67 Information Technology Act.",
+    "expected_relevant_keys": ["CHN_2004_SUHAS_KATTI"],
+    "expected_binding_level": "BINDING_CONSTITUTIONAL"
+  },
+  {
+    "scenario_id": "BENCH_HELD_09",
+    "split": "held_out",
+    "domain": "RTI_GOVERNANCE",
+    "factual_narrative": "Third party applicant seeking certified copies of judicial records and proceedings from High Court registry under RTI Act.",
+    "expected_relevant_keys": ["SC_2020_GUJARAT_HIGH_COURT"],
+    "expected_binding_level": "BINDING_CONSTITUTIONAL"
+  },
+  {
+    "scenario_id": "BENCH_HELD_10",
+    "split": "held_out",
+    "domain": "CONSTITUTIONAL_CIVIL_RIGHTS",
+    "factual_narrative": "Conflict between Hindi text and English translation of Bihar state legislative act under Article 348(3) of Constitution.",
+    "expected_relevant_keys": ["PAT_1974_MATHURA_PRASAD"],
+    "expected_binding_level": "BINDING_TERRITORIAL"
+  },
+  {
+    "scenario_id": "BENCH_HELD_11",
+    "split": "held_out",
+    "domain": "CRIMINAL_LAW_BNS",
+    "factual_narrative": "Fundamental right to privacy declared intrinsic part of Article 21 right to life and personal liberty by nine-judge Constitution Bench.",
+    "expected_relevant_keys": ["SC_2017_PUTTASWAMY"],
+    "expected_binding_level": "BINDING_CONSTITUTIONAL"
+  },
+  {
+    "scenario_id": "BENCH_HELD_12",
+    "split": "held_out",
+    "domain": "CRIMINAL_LAW_BNS",
+    "factual_narrative": "Passport impounded by regional passport officer without post-decisional hearing. Procedure established by law under Article 21 must be just, fair and reasonable.",
+    "expected_relevant_keys": ["SC_1978_MANEKA_GANDHI"],
+    "expected_binding_level": "BINDING_CONSTITUTIONAL"
+  },
+  {
+    "scenario_id": "BENCH_HELD_13",
+    "split": "held_out",
+    "domain": "CRIMINAL_LAW_BNS",
+    "factual_narrative": "Mandatory registration of FIR by police officer under Section 154 CrPC upon receiving information disclosing commission of cognizable offence.",
+    "expected_relevant_keys": ["SC_2014_LALITA_KUMARI"],
+    "expected_binding_level": "BINDING_CONSTITUTIONAL"
+  },
+  {
+    "scenario_id": "BENCH_HELD_14",
+    "split": "held_out",
+    "domain": "CONSTITUTIONAL_CIVIL_RIGHTS",
+    "factual_narrative": "Constitutional validity of administrative tribunals excluding jurisdiction of High Courts under Articles 226 and 227. Judicial review is basic structure.",
+    "expected_relevant_keys": ["SC_1997_L_CHANDRA_KUMAR"],
+    "expected_binding_level": "BINDING_CONSTITUTIONAL"
+  },
+  {
+    "scenario_id": "BENCH_HELD_15",
+    "split": "held_out",
+    "domain": "CRIMINAL_LAW_BNS",
+    "factual_narrative": "Suspension of fundamental rights under Article 359 argued to extinguish citizen locus standi to question illegal executive detention under MISA.",
+    "expected_relevant_keys": ["SC_1976_ADM_JABALPUR"],
+    "expected_overruled_alert": true,
+    "expected_binding_level": "OVERRULED_HISTORICAL_RECORD"
+  }
+]

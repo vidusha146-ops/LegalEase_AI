@@ -1,0 +1,62 @@
+{
+  "act_code": "RTI_ACT_2005",
+  "act_title": "Right to Information Act, 2005",
+  "act_number": "Act No. 22 of 2005",
+  "enactment_date": "2005-06-15",
+  "effective_date": "2005-10-12",
+  "source_url": "https://rti.gov.in/rti-act.pdf",
+  "verification_date": "2026-11-04",
+  "legal_domain": "RTI_GOVERNANCE",
+  "sections": [
+    {
+      "section_number": "3",
+      "parent_section": "3",
+      "section_title": "Right to information",
+      "provision_type": "CITIZEN_RIGHT",
+      "chapter": "II - Right to Information and Obligations of Public Authorities",
+      "full_text": "Subject to the provisions of this Act, all citizens shall have the right to information.",
+      "historical_counterpart": "Statutory enactment under Freedom of Information Act 2002 repeal",
+      "counterpart_type": "CITIZEN_RIGHT"
+    },
+    {
+      "section_number": "6(1)",
+      "parent_section": "6",
+      "section_title": "Request for obtaining information",
+      "provision_type": "PROCEDURAL",
+      "chapter": "II - Right to Information and Obligations of Public Authorities",
+      "full_text": "A person, who desires to obtain any information under this Act, shall make a request in writing or through electronic means in English or Hindi or in the official language of the area in which the application is being made, accompanying such fee as may be prescribed, to— (a) the Central Public Information Officer or State Public Information Officer, as the case may be, of the concerned public authority; (b) the Central Assistant Public Information Officer or State Assistant Public Information Officer, as the case may be, specifying the particulars of the information sought by him or her: Provided that where such request cannot be made in writing, the Central Public Information Officer or State Public Information Officer, as the case may be, shall render all reasonable assistance to the person making the request orally to reduce the same in writing.",
+      "historical_counterpart": "Original RTI Act 2005 provision",
+      "counterpart_type": "PROCEDURAL"
+    },
+    {
+      "section_number": "7(1)",
+      "parent_section": "7",
+      "section_title": "Disposal of request (30-day and 48-hour timelines)",
+      "provision_type": "PROCEDURAL",
+      "chapter": "II - Right to Information and Obligations of Public Authorities",
+      "full_text": "Subject to the proviso to sub-section (2) of section 5 or the proviso to sub-section (3) of section 6, the Central Public Information Officer or State Public Information Officer, as the case may be, on receipt of a request under section 6 shall, as expeditiously as possible, and in any case within thirty days of the receipt of the request, either provide the information on payment of such fee as may be prescribed or reject the request for any of the reasons specified in sections 8 and 9: Provided that where the information sought for concerns the life or liberty of a person, the same shall be provided within forty-eight hours of the receipt of the request.",
+      "historical_counterpart": "Original RTI Act 2005 provision",
+      "counterpart_type": "PROCEDURAL"
+    },
+    {
+      "section_number": "19(1)",
+      "parent_section": "19",
+      "section_title": "First Appeal against non-furnishing or rejection of RTI request",
+      "provision_type": "APPELLATE_REMEDY",
+      "chapter": "V - Information Commissions and Appeals",
+      "full_text": "Any person who, does not receive a decision within the time specified in sub-section (1) or clause (a) of sub-section (3) of section 7, or is aggrieved by a decision of the Central Public Information Officer or State Public Information Officer, as the case may be, may within thirty days from the expiry of such period or from the receipt of such a decision prefer an appeal to such officer who is senior in rank to the Central Public Information Officer or State Public Information Officer as the case may be, in each public authority.",
+      "historical_counterpart": "Original RTI Act 2005 provision",
+      "counterpart_type": "APPELLATE_REMEDY"
+    },
+    {
+      "section_number": "19(3)",
+      "parent_section": "19",
+      "section_title": "Second Appeal to Central or State Information Commission",
+      "provision_type": "APPELLATE_REMEDY",
+      "chapter": "V - Information Commissions and Appeals",
+      "full_text": "A second appeal against the decision under sub-section (1) shall lie within ninety days from the date on which the decision should have been made or was actually received, with the Central Information Commission or the State Information Commission: Provided that the Central Information Commission or the State Information Commission, as the case may be, may admit the appeal after the expiry of the period of ninety days if it is satisfied that the appellant was prevented by sufficient cause from filing the appeal in time.",
+      "historical_counterpart": "Original RTI Act 2005 provision",
+      "counterpart_type": "APPELLATE_REMEDY"
+    }
+  ]
+}
